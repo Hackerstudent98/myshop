@@ -2,13 +2,16 @@
 <html lang="{{ config('app.locale') }}">
 <head>
         <title> HomePages </title>
+        <link rel="stylesheet" href="material/material.min.css">
+    <script src="material/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta name=viewport content="width=device-width, initial-scale=1">
 </head>
 <body>
-<h1> Hello World</h1>
-<h2> Hello world</h2>
-<h2> Hello world</h2>
 
-<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+
+<!-- firebase version 3.9.0 !-->
+<script src="js/firebase.js"></script>
 <script>
     // Initialize Firebase
 
